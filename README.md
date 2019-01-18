@@ -8,6 +8,8 @@ goal is to help each other with the adapter development, so repositories don't g
 
 # how to become a meber
 
+at the moment, create an issue here and ask
+
 # requirements for repositories
 
 # technical information
