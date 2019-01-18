@@ -2,6 +2,9 @@
 information about iobroker-community-adapters organization
 
 # description
+it's a github organization for iobroker adapters wich are manged by the community.
+
+goal is to help each other with the adapter development, so repositories don't get stale. 
 
 # technical information
 
