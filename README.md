@@ -6,6 +6,10 @@ it's a github organization for iobroker adapters wich are manged by the communit
 
 goal is to help each other with the adapter development, so repositories don't get stale. 
 
+# how to become a meber
+
+# requirements for repositories
+
 # technical information
 
 ## add organization as npm owner
