@@ -12,7 +12,7 @@ At the moment, create an issue here and ask.
 
 # requirements for repositories
 
-Your repositorie(s) has to be already in the stabel repositorie for ioBroker. There are almost adapters on Github they have not been releasd or ready to use, for this case you can ask for help to make it ready/stable and bring it to this organization.
+Your repositorie(s) has to be already in the stable or minimum in latest repositorie for ioBroker. There are almost adapters on Github they have not been released or ready to use, for this case you can ask for help to make it ready/stable and bring it to this organization.
 
 # technical information
 
