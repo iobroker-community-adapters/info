@@ -23,7 +23,7 @@ Your repositorie(s) has to be already in the stable or minimum in latest reposit
 ## add git repo to organization
 
     1. Go to your GitHub repo that you want to move
-    2. Change URLs in io-package.json and package.json form your GitHub repo to Org repo 
+    2. Change URLs in io-package.json, package.json and README.md form your GitHub repo to Org repo 
     3. Settings -> Danger Zone -> Transfer Ownership
     4. Click on 'Transfer'
     5. Type 'iobroker-community-adapters' as New owner
