@@ -10,6 +10,10 @@ Goal is to help each other with the adapter development, so repositories don't g
 
 At the moment, create an issue here and ask.
 
+# chat 
+
+Chat an Telegram : https://t.me/joinchat/EdtEphZDh1lp4bO8BoYqfA
+
 # requirements for repositories
 
 Your repositorie(s) has to be already in the stable or minimum in latest repositorie for ioBroker. There are almost adapters on Github they have not been released or ready to use, for this case you can ask for help to make it ready/stable and bring it to this organization.
