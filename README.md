@@ -1,3 +1,5 @@
+![Logo](https://avatars1.githubusercontent.com/u/46189175?s=400&u=44752d5acd9de2cacf9ded7cdab819cd099a7213&v=4)
+
 # Info
 Information about iobroker-community-adapters organization
 
