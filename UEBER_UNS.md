@@ -26,4 +26,4 @@ Einfach einen Issue aufmachen: https://github.com/iobroker-community-a ... nfo/i
 Euer ioBroker Community Adapters Team
 
 
-![Logo](weWantYou.png)
+![weWantYou](weWantYou.jpg)
