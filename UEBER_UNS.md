@@ -24,3 +24,6 @@ Commits/PRs werden für gewöhnlich im 4 Augen Prinzip erstellt/geprüft sodas i
 Einfach einen Issue aufmachen: https://github.com/iobroker-community-a ... nfo/issues
 
 Euer ioBroker Community Adapters Team
+
+
+![Logo](weWantYou.png)
