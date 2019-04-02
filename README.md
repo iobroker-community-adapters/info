@@ -14,7 +14,8 @@ At the moment, create an issue here and ask.
 
 # chat 
 
-Chat an Telegram : https://t.me/joinchat/EdtEphZDh1lp4bO8BoYqfA
+Chat on Telegram : https://t.me/joinchat/EdtEphZDh1lp4bO8BoYqfA (german)
+Chat on Telegram: https://t.me/joinchat/FungexBCt2Vv_mjwtAU0pQ (english)
 
 # requirements for repositories
 
