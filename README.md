@@ -38,3 +38,74 @@ Your repositorie(s) has to be already in the stable or minimum in latest reposit
 
     npm access grant read-write iobroker-community-adapters:developers iobroker.<adaptername>
 
+## Maintainers
+List of maintainers for every adapter in iobroker-community-adapters:
+* ioBroker.coronavirus-statistics - 
+* ioBroker.unifi -
+* ioBroker.discovergy - 
+* ioBroker.myvbus - 
+* ioBroker.mydlink - 
+* ioBroker.accuweather - 
+* ioBroker.find-my-iphone-community - 
+* ioBroker.tr-064 - 
+* ioBroker.upnp - 
+* ioBroker.luxtronik1 - 
+* ioBroker.hmip - 
+* ioBroker.comfoair - 
+* ioBroker.solarlog - 
+* ioBroker.worx - 
+* ioBroker.cec2 - 
+* ioBroker.yeelight-2 - 
+* ioBroker.deconz - 
+* ioBroker.enocean - 
+* ioBroker.proxmox - 
+* ioBroker.smappee - 
+* ioBroker.info -
+* ioBroker.miele-community
+* ioBroker.hid-community
+* ioBroker.fronius
+* ioBroker.firetv
+* ioBroker.yamaha-community
+* ioBroker.landroid
+* ioBroker.places
+* ioBroker.wm-bus-community
+* ioBroker.fhem
+* ioBroker.fitbit-api
+* ioBroker.opentherm
+* ioBroker.knmi-weather
+* ioBroker.sourceanalytix
+* ioBroker.multicast
+* ioBroker.sony-bravia
+* ioBroker.cec-community
+* ioBroker.js2fs-community
+* ioBroker.samsung-community
+* ioBroker.owntracks
+* ioBroker.oilfox
+* ioBroker.vedirect
+* ioBroker.wlanthermo-nano
+* ioBroker.web-speedy
+* ioBroker.wled
+* ioBroker.tado
+* ioBroker.mihome-vacuum
+* ioBroker.wifilight
+* ioBroker.hue
+* ioBroker.weatherunderground
+* ioBroker.telegram
+* ioBroker.email
+* ioBroker.vis-material
+* ioBroker.rpi2
+* ioBroker.opi
+* ioBroker.sma-em
+* ioBroker.ical
+* ioBroker.vis-sip-asterisk
+* ioBroker.roomba
+* ioBroker.panasonic-viera
+* ioBroker.habpanel
+* iobroker.vis-steelseries-canvas
+* ioBroker.zoneminder
+* ioBroker.snmp
+* ioBroker.openhab
+* ioBroker.mihome-plug
+* ioBroker.lightify-community
+* ioBroker.mysensors-2-community
+* ioBroker.koubachi-community
