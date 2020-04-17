@@ -61,51 +61,51 @@ List of maintainers for every adapter in iobroker-community-adapters:
 * ioBroker.proxmox - 
 * ioBroker.smappee - 
 * ioBroker.info -
-* ioBroker.miele-community
-* ioBroker.hid-community
-* ioBroker.fronius
-* ioBroker.firetv
-* ioBroker.yamaha-community
-* ioBroker.landroid
-* ioBroker.places
-* ioBroker.wm-bus-community
-* ioBroker.fhem
-* ioBroker.fitbit-api
-* ioBroker.opentherm
-* ioBroker.knmi-weather
-* ioBroker.sourceanalytix
-* ioBroker.multicast
-* ioBroker.sony-bravia
-* ioBroker.cec-community
-* ioBroker.js2fs-community
-* ioBroker.samsung-community
-* ioBroker.owntracks
-* ioBroker.oilfox
-* ioBroker.vedirect
-* ioBroker.wlanthermo-nano
-* ioBroker.web-speedy
-* ioBroker.wled
-* ioBroker.tado
-* ioBroker.mihome-vacuum
-* ioBroker.wifilight
-* ioBroker.hue
-* ioBroker.weatherunderground
-* ioBroker.telegram
-* ioBroker.email
-* ioBroker.vis-material
-* ioBroker.rpi2
-* ioBroker.opi
-* ioBroker.sma-em
-* ioBroker.ical
-* ioBroker.vis-sip-asterisk
-* ioBroker.roomba
-* ioBroker.panasonic-viera
-* ioBroker.habpanel
-* iobroker.vis-steelseries-canvas
-* ioBroker.zoneminder
-* ioBroker.snmp
-* ioBroker.openhab
-* ioBroker.mihome-plug
-* ioBroker.lightify-community
-* ioBroker.mysensors-2-community
-* ioBroker.koubachi-community
+* ioBroker.miele-community - 
+* ioBroker.hid-community - 
+* ioBroker.fronius - 
+* ioBroker.firetv - 
+* ioBroker.yamaha-community - 
+* ioBroker.landroid - 
+* ioBroker.places - 
+* ioBroker.wm-bus-community - 
+* ioBroker.fhem - 
+* ioBroker.fitbit-api - 
+* ioBroker.opentherm - 
+* ioBroker.knmi-weather - 
+* ioBroker.sourceanalytix - 
+* ioBroker.multicast - 
+* ioBroker.sony-bravia - 
+* ioBroker.cec-community - 
+* ioBroker.js2fs-community - 
+* ioBroker.samsung-community - 
+* ioBroker.owntracks - 
+* ioBroker.oilfox - 
+* ioBroker.vedirect - 
+* ioBroker.wlanthermo-nano - 
+* ioBroker.web-speedy - 
+* ioBroker.wled - 
+* ioBroker.tado - 
+* ioBroker.mihome-vacuum - 
+* ioBroker.wifilight - 
+* ioBroker.hue - 
+* ioBroker.weatherunderground - 
+* ioBroker.telegram - 
+* ioBroker.email - 
+* ioBroker.vis-material - 
+* ioBroker.rpi2 - 
+* ioBroker.opi - 
+* ioBroker.sma-em - 
+* ioBroker.ical - 
+* ioBroker.vis-sip-asterisk - 
+* ioBroker.roomba - 
+* ioBroker.panasonic-viera - 
+* ioBroker.habpanel - 
+* iobroker.vis-steelseries-canvas - 
+* ioBroker.zoneminder - 
+* ioBroker.snmp - 
+* ioBroker.openhab - 
+* ioBroker.mihome-plug - 
+* ioBroker.lightify-community - 
+* ioBroker.mysensors-2-community - 
+* ioBroker.koubachi-community - 
