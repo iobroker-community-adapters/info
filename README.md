@@ -46,7 +46,7 @@ List of maintainers for every adapter in iobroker-community-adapters:
 * ioBroker.cec2 - 
 * ioBroker.comfoair - 
 * ioBroker.coronavirus-statistics - 
-* ioBroker.deconz - 
+* ioBroker.deconz - (@Jey-cee)
 * ioBroker.discovergy - 
 * ioBroker.email - (@Apollon77)
 * ioBroker.enocean - 
@@ -95,7 +95,7 @@ List of maintainers for every adapter in iobroker-community-adapters:
 * ioBroker.telegram - (@Apollon77) (@GermanBluefox)
 * ioBroker.tr-064 - (@Apollon77) (@GermanBluefox)
 * ioBroker.unifi - [braindead1](https://github.com/braindead1/)
-* ioBroker.upnp - 
+* ioBroker.upnp - (@Jey-cee)
 * ioBroker.vedirect - 
 * ioBroker.vis-material - 
 * ioBroker.vis-sip-asterisk - 
