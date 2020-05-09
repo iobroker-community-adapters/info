@@ -48,9 +48,9 @@ List of maintainers for every adapter in iobroker-community-adapters:
 * ioBroker.coronavirus-statistics - 
 * ioBroker.deconz - 
 * ioBroker.discovergy - 
-* ioBroker.email - 
+* ioBroker.email - (@Apollon77)
 * ioBroker.enocean - 
-* ioBroker.fhem - 
+* ioBroker.fhem - (@Apollon77)
 * ioBroker.find-my-iphone-community - 
 * ioBroker.firetv - 
 * ioBroker.fitbit-api - 
@@ -58,10 +58,10 @@ List of maintainers for every adapter in iobroker-community-adapters:
 * ioBroker.habpanel - 
 * ioBroker.hid-community - 
 * ioBroker.hmip - 
-* ioBroker.hue - 
-* ioBroker.ical - 
+* ioBroker.hue - (@Apollon77)
+* ioBroker.ical - (@Apollon77)
 * ioBroker.info -
-* ioBroker.js2fs-community - 
+* ioBroker.js2fs - (@Apollon77)
 * ioBroker.knmi-weather - 
 * ioBroker.koubachi-community - 
 * ioBroker.landroid - 
@@ -92,8 +92,8 @@ List of maintainers for every adapter in iobroker-community-adapters:
 * ioBroker.sony-bravia - 
 * ioBroker.sourceanalytix - 
 * ioBroker.tado - 
-* ioBroker.telegram - 
-* ioBroker.tr-064 - 
+* ioBroker.telegram - (@Apollon77) (@GermanBluefox)
+* ioBroker.tr-064 - (@Apollon77) (@GermanBluefox)
 * ioBroker.unifi -
 * ioBroker.upnp - 
 * ioBroker.vedirect - 
