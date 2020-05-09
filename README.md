@@ -94,7 +94,7 @@ List of maintainers for every adapter in iobroker-community-adapters:
 * ioBroker.tado - 
 * ioBroker.telegram - (@Apollon77) (@GermanBluefox)
 * ioBroker.tr-064 - (@Apollon77) (@GermanBluefox)
-* ioBroker.unifi -
+* ioBroker.unifi - [braindead1](https://github.com/braindead1/)
 * ioBroker.upnp - 
 * ioBroker.vedirect - 
 * ioBroker.vis-material - 
