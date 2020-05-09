@@ -58,7 +58,7 @@ List of maintainers for every adapter in iobroker-community-adapters:
 * ioBroker.habpanel - 
 * ioBroker.hid-community - 
 * ioBroker.hmip - 
-* ioBroker.hue - (@Apollon77)
+* ioBroker.hue - foxriver76 (@Apollon77)
 * ioBroker.ical - (@Apollon77)
 * ioBroker.info -
 * ioBroker.js2fs - (@Apollon77)
