@@ -57,7 +57,7 @@ List of maintainers for every adapter in iobroker-community-adapters:
 * ioBroker.fronius - 
 * ioBroker.habpanel - 
 * ioBroker.hid-community - 
-* ioBroker.hmip - (@jogibear9988) - searching for sombody takeing it over
+* ioBroker.hmip - @jogibear9988 - searching for sombody takeing it over
 * ioBroker.hue - foxriver76 (@Apollon77)
 * ioBroker.ical - (@Apollon77)
 * ioBroker.info -
@@ -74,7 +74,7 @@ List of maintainers for every adapter in iobroker-community-adapters:
 * ioBroker.mydlink - 
 * ioBroker.mysensors-2-community - 
 * ioBroker.myvbus - [@pdbjjens](https://github.com/pdbjjens/)
-* ioBroker.oilfox - (@jogibear9988)
+* ioBroker.oilfox - @jogibear9988
 * ioBroker.openhab - 
 * ioBroker.opentherm - 
 * ioBroker.opi - 
