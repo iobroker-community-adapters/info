@@ -73,7 +73,7 @@ List of maintainers for every adapter in iobroker-community-adapters:
 * ioBroker.multicast - 
 * ioBroker.mydlink - 
 * ioBroker.mysensors-2-community - 
-* ioBroker.myvbus - 
+* ioBroker.myvbus - [@pdbjjens](https://github.com/pdbjjens/)
 * ioBroker.oilfox - 
 * ioBroker.openhab - 
 * ioBroker.opentherm - 
