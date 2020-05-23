@@ -43,7 +43,7 @@ List of maintainers for every adapter in iobroker-community-adapters:
 
 * ioBroker.accuweather - 
 * ioBroker.cec-community - 
-* ioBroker.cec2 - 
+* ioBroker.cec2 - ![Garfonso](https://github.com/Garfonso/)
 * ioBroker.comfoair - 
 * ioBroker.coronavirus-statistics - 
 * ioBroker.deconz - (@Jey-cee)
@@ -71,7 +71,7 @@ List of maintainers for every adapter in iobroker-community-adapters:
 * ioBroker.mihome-plug - 
 * ioBroker.mihome-vacuum - 
 * ioBroker.multicast - 
-* ioBroker.mydlink - 
+* ioBroker.mydlink - ![Garfonso](https://github.com/Garfonso/)
 * ioBroker.mysensors-2-community - 
 * ioBroker.myvbus - [@pdbjjens](https://github.com/pdbjjens/)
 * ioBroker.oilfox - @jogibear9988
