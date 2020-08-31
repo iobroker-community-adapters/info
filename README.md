@@ -14,7 +14,8 @@ At the moment, create an issue here and ask.
 
 # chat 
 
-- Chat on Telegram : https://t.me/joinchat/EdtEphZDh1lp4bO8BoYqfA (german)
+- Preferd Chat on Discord: https://discord.gg/vmVYqPV (german) 
+- Chat on Telegram : https://t.me/joinchat/EdtEphZDh1lp4bO8BoYqfA (german) synced with discord channel
 - Chat on Telegram: https://t.me/joinchat/FungexBCt2Vv_mjwtAU0pQ (english)
 
 # requirements for repositories
@@ -36,8 +37,14 @@ Your repositorie(s) has to be already in the stable or minimum in latest reposit
 
 ## add organization as npm owner
 
+After you have accepted the membership use the link below and enter the package name (iobroker.<adaptername>) and hit "Add existing package".
+    
+    https://www.npmjs.com/settings/iobroker-community-adapters/teams/team/developers/access
+    
+Alternative (does not work in most cases):
+    
     npm access grant read-write iobroker-community-adapters:developers iobroker.<adaptername>
-
+    
 ## Maintainers
 List of maintainers for every adapter in iobroker-community-adapters:
 
