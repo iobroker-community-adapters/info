@@ -60,7 +60,7 @@ List of maintainers for every adapter in iobroker-community-adapters:
 * ioBroker.fhem - (@Apollon77)
 * ioBroker.find-my-iphone-community - 
 * ioBroker.firetv - 
-* ioBroker.fitbit-api - 
+* ioBroker.fitbit-api - (@Garfonso)
 * ioBroker.fronius - 
 * ioBroker.habpanel - 
 * ioBroker.hid-community - 
@@ -90,7 +90,7 @@ List of maintainers for every adapter in iobroker-community-adapters:
 * ioBroker.places - 
 * ioBroker.proxmox - 
 * ioBroker.roomba - 
-* ioBroker.rpi2 - 
+* ioBroker.rpi2 - (@Garfonso)
 * ioBroker.samsung-community - 
 * ioBroker.sma-em - 
 * ioBroker.smappee - 
@@ -99,7 +99,7 @@ List of maintainers for every adapter in iobroker-community-adapters:
 * ioBroker.sony-bravia - 
 * ioBroker.sourceanalytix - 
 * ioBroker.tado - 
-* ioBroker.telegram - (@Apollon77) (@GermanBluefox)
+* ioBroker.telegram - (@Apollon77) (@GermanBluefox) (@Garfonso)
 * ioBroker.tr-064 - (@Apollon77) (@GermanBluefox)
 * ioBroker.unifi - [braindead1](https://github.com/braindead1/)
 * ioBroker.upnp - (@Jey-cee)
@@ -113,7 +113,7 @@ List of maintainers for every adapter in iobroker-community-adapters:
 * ioBroker.wled - 
 * ioBroker.wm-bus-community - 
 * ioBroker.worx - 
-* ioBroker.yamaha-community - 
+* ioBroker.yamaha-community - (@Garfonso)
 * ioBroker.yeelight-2 - 
 * ioBroker.zoneminder - 
 * iobroker.vis-steelseries-canvas - 
