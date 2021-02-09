@@ -98,6 +98,7 @@ List of maintainers for every adapter in iobroker-community-adapters:
 * ioBroker.solarlog - 
 * ioBroker.sony-bravia - 
 * ioBroker.sourceanalytix - 
+* ioBroker.spotify-premium - [@twonky4](https://github.com/twonky4/)
 * ioBroker.tado - 
 * ioBroker.telegram - (@Apollon77) (@GermanBluefox) (@Garfonso)
 * ioBroker.tr-064 - (@Apollon77) (@GermanBluefox)
