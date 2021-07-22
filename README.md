@@ -68,6 +68,7 @@ List of maintainers for every adapter in iobroker-community-adapters:
 * ioBroker.hmip - @jogibear9988 - searching for sombody takeing it over
 * ioBroker.hue - foxriver76 (@Apollon77)
 * ioBroker.ical - (@Apollon77)
+* ioBroker.ico-cloud - ![Garfonso](https://github.com/Garfonso/)
 * ioBroker.info -
 * ioBroker.js2fs - (@Apollon77)
 * ioBroker.knmi-weather - 
