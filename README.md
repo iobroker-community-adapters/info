@@ -10,7 +10,8 @@ Goal is to help each other with the adapter development, so repositories don't g
 
 # how to become a member
 
-Click [HERE](https://github.com/iobroker-community-adapters/info/issues/new?assignees=Jey-Cee&labels=new+member&template=please-add-me-as-member.md&title=Please+add+me+as+a+member) and fill out the template.
+Activate 2FA for your Github and npmjs account, this is a must have. 
+Then Click [HERE](https://github.com/iobroker-community-adapters/info/issues/new?assignees=Jey-Cee&labels=new+member&template=please-add-me-as-member.md&title=Please+add+me+as+a+member) and fill out the template.
 You will receive two invitation emails one for Github and one for npmjs.com. 
 
 # chat 
