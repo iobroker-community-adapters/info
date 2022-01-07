@@ -8,42 +8,43 @@ It's a github organization for iobroker adapters wich are manged by the communit
 
 Goal is to help each other with the adapter development, so repositories don't get stale and keep alive.
 
-# how to become a member
+# How to become a member
 
 Activate 2FA for your Github and npmjs account, this is a must have. 
 Then Click [HERE](https://github.com/iobroker-community-adapters/info/issues/new?assignees=Jey-Cee&labels=new+member&template=please-add-me-as-member.md&title=Please+add+me+as+a+member) and fill out the template.
 You will receive two invitation emails one for Github and one for npmjs.com. 
 
-# chat 
+# Chat 
 
 - Preferd Chat on Discord: https://discord.gg/vmVYqPV (german) 
 - Chat on Telegram : https://t.me/joinchat/EdtEphZDh1lp4bO8BoYqfA (german) synced with discord channel
 - Chat on Telegram: https://t.me/joinchat/FungexBCt2Vv_mjwtAU0pQ (english)
 
-# requirements for repositories
+# Requirements for repositories
 
 Your repositorie(s) has to be already in the stable or minimum in latest repositorie for ioBroker. There are almost adapters on Github they have not been released or ready to use, for this case you can ask for help to make it ready/stable and bring it to this organization.
 
-# technical information
+# Technical information
 
-## add git repo to organization
+## Add git repo to organization
 
     1. Go to your GitHub repo that you want to move
     2. Change URLs in io-package.json, package.json and README.md form your GitHub repo to Org repo 
     3. Settings -> Danger Zone -> Transfer Ownership
     4. Click on 'Transfer'
     5. Type 'iobroker-community-adapters' as New owner
-    6. Add the oranization as an owner of your npm packages (npm access grant read-write iobroker-community-adapters:developers iobroker.<adaptername>)
+    6. Add the organization as an owner of your npm packages, for help look below
     7. Change the url of your repo via pull req at https://github.com/ioBroker/ioBroker.repositories
     8. Thats it
 
-## add organization as npm owner
+## Add organization as npm owner
 
-After you have accepted the membership use the link below and enter the package name (iobroker.<adaptername>) and hit "Add existing package".
+After you have accepted the membership, we have to add you to the developers team befor it is possible to grant the org acces to the package. (Thank you npm for this horrible right managment for org's)
+Then use the link below and enter the package name (iobroker.<adaptername>) and hit "Add existing package".
     
     https://www.npmjs.com/settings/iobroker-community-adapters/teams/team/developers/access
     
-Alternative (does not work in most cases):
+Alternative use the CLI:
     
     npm access grant read-write iobroker-community-adapters:developers iobroker.<adaptername>
     
