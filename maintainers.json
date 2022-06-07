@@ -1,0 +1,23 @@
+{
+    "ioBroker.cec2": ["Garfonso"],
+    "ioBroker.email": ["Apollon77"],
+    "ioBroker.fhem": ["Apollon77"],
+    "ioBroker.fitbit-api": ["Garfonso"],
+    "ioBroker.hmip": ["jogibear9988"],
+    "ioBroker.hue": ["foxriver76", "Apollon77"],
+    "ioBroker.ical": ["Apollon77"],
+    "ioBroker.ico-cloud": ["Garfonso"],
+    "ioBroker.js2fs-community": ["Apollon77"],
+    "ioBroker.mydlink": ["Garfonso"],
+    "ioBroker.myvbus": ["pdbjjens"],
+    "ioBroker.oilfox": ["jogibear9988"],
+    "ioBroker.rpi2": ["Garfonso"],
+    "ioBroker.spotify-premium": ["twonky4"],
+    "ioBroker.telegram": ["Apollon77", "GermanBluefox", "Garfonso"],
+    "ioBroker.tr-064": ["Apollon77", "GermanBluefox"],
+    "ioBroker.unifi": ["braindead1"],
+    "ioBroker.yamaha": ["Garfonso"],
+    "ioBroker.shelly": ["klein0r"],
+    "ioBroker.pvforecast": ["klein0r"],
+    "ioBroker.snmp": ["mcm1957"]
+}
