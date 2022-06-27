@@ -29,5 +29,16 @@ utils.collectRepos(adapterList)
             ]);
         }
 
-        console.log(mdTable(outPutTable));
+        if (outPutTable.length > 0) {
+            // Update README
+            let readmeFileContents = String(fs.readFileSync('README.md'));
+
+            // Remove old markdown table and append new table
+            readmeFileContents = readmeFileContents.substring(0, readmeFileContents.indexOf('| Adapter'));
+            readmeFileContents += mdTable(outPutTable);
+
+            fs.writeFileSync('README.md', readmeFileContents);
+
+            console.log('done.');
+        }
     });
