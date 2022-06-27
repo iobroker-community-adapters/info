@@ -1,34 +1,14 @@
 'use strict';
 
-const axios = require('axios').default;
 const mdTable = require('markdown-table');
+const utils = require('./lib/utils');
 const fs = require('fs');
 
 let maintainers = JSON.parse(fs.readFileSync('maintainers.json'));
 
 let adapterList = [];
 
-async function collectRepos(adapterList, page) {
-    const repoResponse = await axios.get(`https://api.github.com/users/iobroker-community-adapters/repos?sort=full_name&per_page=100&page=${page}`);
-
-    if (repoResponse.status === 200 && repoResponse.data.length > 0) {
-        const repoJSON = repoResponse.data;
-
-        for (const i in repoJSON) {
-            const adapter = repoJSON[i];
-
-            if (adapter.name.startsWith('ioBroker.') && !adapter.archived && adapter.size > 0) {
-                adapterList.push(adapter);
-            }
-        }
-
-        return adapterList.concat(await collectRepos(adapterList, ++page));
-    } else {
-        return [];
-    }
-}
-
-collectRepos(adapterList, 1)
+utils.collectRepos(adapterList)
     .then(adapterList => {
         let outPutTable = [];
 
