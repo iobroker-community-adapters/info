@@ -17,7 +17,7 @@ if (process.argv.indexOf('--update-readme') > -1) {
 
             for (const a in adapterList) {
                 const adapter = adapterList[a];
-
+                console.log ('    processing adapter '+adapter.name+' ('+a+')');
                 const adapterName = adapter.name.replace('ioBroker.', '').toLowerCase();
                 const packageName = adapter.name.toLowerCase();
 
