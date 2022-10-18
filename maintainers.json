@@ -16,6 +16,7 @@
     "ioBroker.ring": ["theimo1221"],
     "ioBroker.rpi2": ["Garfonso"],
     "ioBroker.shelly": ["klein0r"],
+    "ioBroker.smartcontrol": ["oelison"], 
     "ioBroker.snmp": ["mcm1957"],
     "ioBroker.spotify-premium": ["twonky4"],
     "ioBroker.statistics": ["klein0r"],
