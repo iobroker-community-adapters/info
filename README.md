@@ -1,22 +1,24 @@
 ![Logo](https://avatars1.githubusercontent.com/u/46189175?s=400&u=44752d5acd9de2cacf9ded7cdab819cd099a7213&v=4)
 
 # Info
+
 Information about iobroker-community-adapters organization
 
 # Description
+
 It's a github organization for iobroker adapters wich are manged by the community.
 
 Goal is to help each other with the adapter development, so repositories don't get stale and keep alive.
 
 # How to become a member
 
-Activate 2FA for your Github and npmjs account, this is a must have. 
+Activate 2FA for your Github and npmjs account, this is a must have.
 Then Click [HERE](https://github.com/iobroker-community-adapters/info/issues/new?assignees=Jey-Cee&labels=new+member&template=please-add-me-as-member.md&title=Please+add+me+as+a+member) and fill out the template.
-You will receive two invitation emails one for Github and one for npmjs.com. 
+You will receive two invitation emails one for Github and one for npmjs.com.
 
-# Chat 
+# Chat
 
-- Preferd Chat on Discord: https://discord.gg/vmVYqPV (german) 
+- Preferd Chat on Discord: https://discord.gg/vmVYqPV (german)
 - Chat on Telegram : https://t.me/joinchat/EdtEphZDh1lp4bO8BoYqfA (german) synced with discord channel
 - Chat on Telegram: https://t.me/joinchat/FungexBCt2Vv_mjwtAU0pQ (english)
 
@@ -29,7 +31,7 @@ Your repositorie(s) has to be already in the stable or minimum in latest reposit
 ## Add git repo to organization
 
 1. Go to your GitHub repo that you want to move
-2. Change URLs in io-package.json, package.json and README.md form your GitHub repo to Org repo 
+2. Change URLs in io-package.json, package.json and README.md form your GitHub repo to Org repo
 3. Settings -> Danger Zone -> Transfer Ownership
 4. Click on 'Transfer'
 5. Type 'iobroker-community-adapters' as New owner
@@ -54,7 +56,7 @@ npm access grant read-write iobroker-community-adapters:developers iobroker.<ada
 
 List of maintainers for every adapter in iobroker-community-adapters
 
-Update with ``npm start``
+Update with `npm start`
 
 | Adapter                                                                                                                         | Beta                                                                                                  | Stable                                                                          | Installed                                                                             | Maintainer                                                                                                                               |
 | ------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
@@ -88,7 +90,7 @@ Update with ``npm start``
 | [ioBroker.hue](https://github.com/iobroker-community-adapters/ioBroker.hue)                                                     | ![Beta](https://img.shields.io/npm/v/iobroker.hue.svg?color=red&label=beta)                           | ![Stable](http://iobroker.live/badges/hue-stable.svg)                           | ![Installed](http://iobroker.live/badges/hue-installed.svg)                           | [foxriver76](https://github.com/foxriver76/), [Apollon77](https://github.com/Apollon77/)                                                 |
 | [ioBroker.hue-extended](https://github.com/iobroker-community-adapters/ioBroker.hue-extended)                                   | ![Beta](https://img.shields.io/npm/v/iobroker.hue-extended.svg?color=red&label=beta)                  | ![Stable](http://iobroker.live/badges/hue-extended-stable.svg)                  | ![Installed](http://iobroker.live/badges/hue-extended-installed.svg)                  | -                                                                                                                                        |
 | [ioBroker.ical](https://github.com/iobroker-community-adapters/ioBroker.ical)                                                   | ![Beta](https://img.shields.io/npm/v/iobroker.ical.svg?color=red&label=beta)                          | ![Stable](http://iobroker.live/badges/ical-stable.svg)                          | ![Installed](http://iobroker.live/badges/ical-installed.svg)                          | [Apollon77](https://github.com/Apollon77/), [jens-maus](https://github.com/jens-maus/)                                                   |
-| [ioBroker.iceroad](https://github.com/iobroker-community-adapters/ioBroker.iceroad)                                             | ![Beta](https://img.shields.io/npm/v/iobroker.iceroad.svg?color=red&label=beta)                       | ![Stable](http://iobroker.live/badges/iceroad-stable.svg)                       | ![Installed](http://iobroker.live/badges/iceroad-installed.svg)                       | -                                                                                                                                        |
+| [ioBroker.iceroad](https://github.com/iobroker-community-adapters/ioBroker.iceroad)                                             | ![Beta](https://img.shields.io/npm/v/iobroker.iceroad.svg?color=red&label=beta)                       | ![Stable](http://iobroker.live/badges/iceroad-stable.svg)                       | ![Installed](http://iobroker.live/badges/iceroad-installed.svg)                       | [ciddi89](https://github.com/ciddi89/)                                                                                                   |
 | [ioBroker.ico-cloud](https://github.com/iobroker-community-adapters/ioBroker.ico-cloud)                                         | ![Beta](https://img.shields.io/npm/v/iobroker.ico-cloud.svg?color=red&label=beta)                     | ![Stable](http://iobroker.live/badges/ico-cloud-stable.svg)                     | ![Installed](http://iobroker.live/badges/ico-cloud-installed.svg)                     | [Garfonso](https://github.com/Garfonso/)                                                                                                 |
 | [ioBroker.info](https://github.com/iobroker-community-adapters/ioBroker.info)                                                   | ![Beta](https://img.shields.io/npm/v/iobroker.info.svg?color=red&label=beta)                          | ![Stable](http://iobroker.live/badges/info-stable.svg)                          | ![Installed](http://iobroker.live/badges/info-installed.svg)                          | -                                                                                                                                        |
 | [ioBroker.kecontact](https://github.com/iobroker-community-adapters/ioBroker.kecontact)                                         | ![Beta](https://img.shields.io/npm/v/iobroker.kecontact.svg?color=red&label=beta)                     | ![Stable](http://iobroker.live/badges/kecontact-stable.svg)                     | ![Installed](http://iobroker.live/badges/kecontact-installed.svg)                     | [Sneak-L8](https://github.com/Sneak-L8/)                                                                                                 |
