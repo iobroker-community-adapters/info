@@ -1,6 +1,7 @@
 {
   "ioBroker.cec2": ["Garfonso"],
   "ioBroker.email": ["Apollon77"],
+  "ioBroker.envertech-pv": ["mcm1957"],
   "ioBroker.fhem": ["Apollon77"],
   "ioBroker.fitbit-api": ["Garfonso"],
   "ioBroker.google-smart-home-fulfillment": ["raintonr"],
