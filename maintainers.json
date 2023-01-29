@@ -1,4 +1,5 @@
 {
+  "ioBroker.acme": ["raintonr"],
   "ioBroker.cec2": ["Garfonso"],
   "ioBroker.email": ["Apollon77"],
   "ioBroker.envertech-pv": ["mcm1957"],
