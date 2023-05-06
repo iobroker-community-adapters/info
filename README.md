@@ -56,7 +56,7 @@ npm access grant read-write iobroker-community-adapters:developers iobroker.<ada
 
 List of maintainers for every adapter in iobroker-community-adapters
 
-Update with `npm start`
+Developer note: Maintainers are listed at maintainers.json. Adding an exclamation mark (!) there activates "needs maintance" badge. Update README.md with `npm start`.
 
 | Adapter                                                                                                                         | Beta                                                                                                  | Stable                                                                          | Installed                                                                             | Teststatus                                                                                                                                      | Maintainer                                                                                                                               |
 | ------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
