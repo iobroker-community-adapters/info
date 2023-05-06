@@ -27,7 +27,11 @@ if (process.argv.indexOf('--update-readme') > -1) {
                     `![Stable](http://iobroker.live/badges/${adapterName}-stable.svg)`,
                     `![Installed](http://iobroker.live/badges/${adapterName}-installed.svg)`,
 			  `![Test&Release](https://github.com/iobroker-community-adapters/iobroker.${adapterName}/workflows/Test%20and%20Release/badge.svg)`,
-                    maintainers?.[adapter.name] ? maintainers[adapter.name].map(m => `[${m}](https://github.com/${m}/)`).join(', ') : `-`
+                    maintainers?.[adapter.name] ? 
+                      (maintainers[adapter.name]=='!' ? 
+                          `![Need Maintanance](https://img.shields.io/badge/needs-MAINTENANCE-red)`
+                        : maintainers[adapter.name].map(m => `[${m}](https://github.com/${m}/)`).join(', ') ) 
+                      : `-`
                 ]);
             }
 
