@@ -24,7 +24,7 @@ You will receive two invitation emails one for Github and one for npmjs.com.
 
 # Requirements for repositories
 
-Your repositorie(s) has to be already in the stable or minimum in latest repositorie for ioBroker. There are almost adapters on Github they have not been released or ready to use, for this case you can ask for help to make it ready/stable and bring it to this organization.
+Your repositorie(s) has to be already in the stable or minimum in latest repository for ioBroker. There are many adapters on Github that have not been released or ready to use, for this case you can ask for help to make it ready/stable and bring it to this organization.
 
 # Technical information
 
