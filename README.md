@@ -18,7 +18,7 @@ You will receive two invitation emails one for Github and one for npmjs.com.
 
 # Chat
 
-- Preferd Chat on Discord: https://discord.gg/vmVYqPV (german)
+- Prefered Chat on Discord: https://discord.gg/vmVYqPV (german)
 - Chat on Telegram : https://t.me/joinchat/EdtEphZDh1lp4bO8BoYqfA (german) synced with discord channel
 - Chat on Telegram: https://t.me/joinchat/FungexBCt2Vv_mjwtAU0pQ (english)
 
