@@ -38,5 +38,6 @@
   "ioBroker.telegram": ["Apollon77", "GermanBluefox", "Garfonso"],
   "ioBroker.tr-064": ["Apollon77", "GermanBluefox"],
   "ioBroker.unifi": ["braindead1"],
-  "ioBroker.yamaha": ["Garfonso"]
+  "ioBroker.yamaha": ["Garfonso"],
+  "ioBroker.yeelight-2": "!"
 }
