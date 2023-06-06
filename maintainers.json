@@ -1,6 +1,7 @@
 {
   "ioBroker.acme": ["raintonr"],
   "ioBroker.cec2": ["Garfonso"],
+  "ioBroker.doorbird": "!",
   "ioBroker.email": ["Apollon77"],
   "ioBroker.envertech-pv": ["mcm1957"],
   "ioBroker.fhem": ["Apollon77"],
@@ -9,7 +10,6 @@
   "ioBroker.fronius": ["nkleber78", "mcm1957"],
   "ioBroker.google-smart-home-fulfillment": ["raintonr"],
   "ioBroker.hikvision-alarmserver": ["raintonr"],
-  "ioBroker.frontier_silicon": ["pdbjjens"],  
   "ioBroker.hmip": ["jogibear9988"],
   "ioBroker.hue": ["foxriver76", "Apollon77"],
   "ioBroker.hue-extended": "!",
