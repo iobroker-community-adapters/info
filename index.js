@@ -21,17 +21,21 @@ if (process.argv.indexOf('--update-readme') > -1) {
                 const adapterName = adapter.name.replace('ioBroker.', '').toLowerCase();
                 const packageName = adapter.name.toLowerCase();
 
+                let maint = '-';
+                if ( maintainers?.[adapter.name] === '!' )
+                    maint = `![Need Maintanance](https://img.shields.io/badge/needs-MAINTENANCE-red)`;
+                else if ( maintainers[adapter.name]=='DEPRECATED' )
+                    maint = `![DEPRECATED](https://img.shields.io/badge/DEPRECATED-black)`;
+                else if ( maintainers?.[adapter.name] )
+                    maint = maintainers[adapter.name].map(m => `[${m}](https://github.com/${m}/)`).join(', ');
+
                 outPutTable.push([
                     `[${adapter.name}](${adapter.html_url})`,
                     `![Beta](https://img.shields.io/npm/v/${packageName}.svg?color=red&label=beta)`,
                     `![Stable](http://iobroker.live/badges/${adapterName}-stable.svg)`,
                     `![Installed](http://iobroker.live/badges/${adapterName}-installed.svg)`,
-			  `![Test&Release](https://github.com/iobroker-community-adapters/iobroker.${adapterName}/workflows/Test%20and%20Release/badge.svg)`,
-                    maintainers?.[adapter.name] ? 
-                      (maintainers[adapter.name]=='!' ? 
-                          `![Need Maintanance](https://img.shields.io/badge/needs-MAINTENANCE-red)`
-                        : maintainers[adapter.name].map(m => `[${m}](https://github.com/${m}/)`).join(', ') ) 
-                      : `-`
+                    `![Test&Release](https://github.com/iobroker-community-adapters/iobroker.${adapterName}/workflows/Test%20and%20Release/badge.svg)`,
+                    `${maint}`
                 ]);
             }
 
