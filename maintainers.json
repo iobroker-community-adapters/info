@@ -20,6 +20,7 @@
     "ioBroker.js2fs-community": ["Apollon77"],
     "ioBroker.km200": "DEPRECATED",
     "ioBroker.kecontact": ["Sneak-L8"],
+    "ioBroker.landroid": "DEPRECATED",
     "ioBroker.legrand-ecocompteur": ["raintonr"],
     "ioBroker.logparser": ["ciddi89"],
     "ioBroker.mydlink": ["Garfonso"],
