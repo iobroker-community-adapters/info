@@ -42,6 +42,7 @@
     "ioBroker.statistics": ["klein0r"],
     "ioBroker.telegram": ["Apollon77", "GermanBluefox", "Garfonso"],
     "ioBroker.tr-064": ["Apollon77", "GermanBluefox"],
+    "ioBroker.weatherunderground": ["mcm1957"],
     "ioBroker.worx": ["Lucky-ESA"],
     "ioBroker.yamaha": ["Garfonso"],
     "ioBroker.yeelight-2": "!"
