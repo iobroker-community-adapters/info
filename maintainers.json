@@ -27,7 +27,6 @@
     "ioBroker.myenergi": ["TA2k"],
     "ioBroker.myvbus": ["pdbjjens"],
     "ioBroker.nsclient": ["mcm1957"],
-    "ioBroker.oilfox": ["jogibear9988"],
     "ioBroker.onvif": ["TA2k"],
     "ioBroker.pid": ["mcm1957"],
     "ioBroker.pvforecast": ["klein0r"],
@@ -43,6 +42,7 @@
     "ioBroker.telegram": ["Apollon77", "GermanBluefox", "Garfonso"],
     "ioBroker.tr-064": ["Apollon77", "GermanBluefox"],
     "ioBroker.weatherunderground": ["mcm1957"],
+    "ioBroker.webui": ["jogibear9988"],
     "ioBroker.worx": ["Lucky-ESA"],
     "ioBroker.yamaha": ["Garfonso"],
     "ioBroker.yeelight-2": "!"
