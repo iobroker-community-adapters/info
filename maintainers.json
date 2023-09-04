@@ -29,6 +29,7 @@
     "ioBroker.nsclient": ["mcm1957"],
     "ioBroker.onvif": ["TA2k"],
     "ioBroker.pid": ["mcm1957"],
+    "ioBroker.plex": ["ticaki"],
     "ioBroker.pvforecast": ["klein0r"],
     "ioBroker.ring": ["theimo1221"],
     "ioBroker.rpi2": ["Garfonso"],
