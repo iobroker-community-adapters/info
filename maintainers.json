@@ -37,7 +37,7 @@
     "ioBroker.sma-em": ["pdbjjens"],
     "ioBroker.smartcontrol": ["oelison"],
     "ioBroker.snmp": ["mcm1957"],
-    "ioBroker.spotify-premium": "!",
+    "ioBroker.spotify-premium": ["aruttkamp"],
     "ioBroker.tankerkoenig": ["xXBJXx"],
     "ioBroker.statistics": ["klein0r"],
     "ioBroker.telegram": ["Apollon77", "GermanBluefox", "Garfonso"],
