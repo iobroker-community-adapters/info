@@ -11,7 +11,7 @@
     "ioBroker.google-smart-home-fulfillment": ["raintonr"],
     "ioBroker.hikvision-alarmserver": ["raintonr"],
     "ioBroker.hmip": ["jogibear9988"],
-    "ioBroker.homeconnect": "!",
+    "ioBroker.homeconnect": ["mcm1957"],
     "ioBroker.hue": ["foxriver76", "Apollon77"],
     "ioBroker.hue-extended": "DEPRECATED",
     "ioBroker.ical": ["Apollon77", "jens-maus"],
