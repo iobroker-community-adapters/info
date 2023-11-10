@@ -10,9 +10,11 @@ const maintainers = JSON.parse(fs.readFileSync('maintainers.json'));
 if (process.argv.indexOf('--update-readme') > -1) {
     console.log('Updating README.md');
 
-    utils.collectRepos()
-        .then(adapterList => {
-            let templateData = {
+    Promise.all([utils.collectCommunityRepos(), utils.getBetaRepository()])
+        .then(values => {
+            const [adapterList, betaRepo] = values;
+
+            const templateData = {
                 generatedAt: new Date().toISOString(),
                 adapters: [],
             };
@@ -37,6 +39,11 @@ if (process.argv.indexOf('--update-readme') > -1) {
                     adapterName: adapterName,
                     packageName: packageName,
                     maintainer: maint,
+                    version: {
+                        beta: betaRepo?.[adapterName]?.version ?? '??',
+                        stable: betaRepo?.[adapterName]?.stable ?? '??',
+                    },
+                    installations: betaRepo?.[adapterName]?.stat ?? '??',
                 });
             }
 
