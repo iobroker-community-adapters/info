@@ -8,7 +8,7 @@ on:
     - cron: '0 0 * * *'
 
 jobs:
-  rbuild:
+  rebuildReadme:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
