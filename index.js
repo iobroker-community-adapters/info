@@ -45,6 +45,7 @@ if (process.argv.indexOf('--update-readme') > -1) {
                         maintainer: maint,
                         version: {
                             beta: adapterData.version ?? '??',
+                            betaAge: Math.ceil(Math.abs(Date.now() - new Date(adapterData.versionDate).getTime()) / (1000 * 60 * 60 * 24)),
                             stable: adapterData?.stable ?? '??',
                         },
                         installations: adapterData?.stat,
