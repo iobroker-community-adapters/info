@@ -59,7 +59,7 @@ List of maintainers for every adapter in iobroker-community-adapters
 ### Adapters in beta (and stable) repository
 
 | | Adapter | Beta | Stable | Installed | Teststatus | Maintainer |
-|-|---------|------|--------|-----------|------------|------------|
+|-|---------|-----:|-------:|----------:|------------|------------|
 | <img src="https://raw.githubusercontent.com/iobroker-community-adapters/ioBroker.accuweather/master/admin/accuweather.png" alt="AccuWeather" width="25" /> | [accuweather](https://github.com/iobroker-community-adapters/ioBroker.accuweather) | v1.3.1 | v1.3.1 | 4312 | ![Test&Release](https://github.com/iobroker-community-adapters/iobroker.accuweather/workflows/Test%20and%20Release/badge.svg) | - |
 | <img src="https://raw.githubusercontent.com/iobroker-community-adapters/ioBroker.acme/main/admin/acme.png" alt="ACME" width="25" /> | [acme](https://github.com/iobroker-community-adapters/ioBroker.acme) | v0.1.0 | v0.1.0 | 239 | ![Test&Release](https://github.com/iobroker-community-adapters/iobroker.acme/workflows/Test%20and%20Release/badge.svg) | [raintonr](https://github.com/raintonr/) |
 | <img src="https://raw.githubusercontent.com/iobroker-community-adapters/ioBroker.beckhoff/master/admin/beckhoff.png" alt="Beckhoff TwinCat ADS" width="25" /> | [beckhoff](https://github.com/iobroker-community-adapters/ioBroker.beckhoff) | v1.5.3 | v1.5.2 | 279 | ![Test&Release](https://github.com/iobroker-community-adapters/iobroker.beckhoff/workflows/Test%20and%20Release/badge.svg) | - |
@@ -192,4 +192,4 @@ List of maintainers for every adapter in iobroker-community-adapters
 
 ----
 
-*Generated at: 2023-11-11T19:27:38.250Z*
+*Generated at: 2023-11-11T19:35:26.598Z*
