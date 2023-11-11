@@ -17,12 +17,12 @@ if (process.argv.indexOf('--update-readme') > -1) {
             const templateData = {
                 generatedAt: new Date().toISOString(),
                 adapters: [],
+                adaptersUnlisted: [],
             };
 
             for (const adapter of adapterList) {
                 console.log (`    processing adapter ${adapter.name}`);
                 const adapterName = adapter.name.replace('ioBroker.', '').toLowerCase();
-                const packageName = adapter.name.toLowerCase();
 
                 let maint = '-';
                 if (maintainers?.[adapter.name] === '!') {
@@ -33,18 +33,30 @@ if (process.argv.indexOf('--update-readme') > -1) {
                     maint = maintainers[adapter.name].map(m => `[${m}](https://github.com/${m}/)`).join(', ');
                 }
 
-                templateData.adapters.push({
-                    name: adapter.name,
-                    url: adapter.html_url,
-                    adapterName: adapterName,
-                    packageName: packageName,
-                    maintainer: maint,
-                    version: {
-                        beta: betaRepo?.[adapterName]?.version ?? '??',
-                        stable: betaRepo?.[adapterName]?.stable ?? '??',
-                    },
-                    installations: betaRepo?.[adapterName]?.stat ?? '??',
-                });
+                if (betaRepo?.[adapterName]) {
+                    const adapterData = betaRepo[adapterName];
+
+                    templateData.adapters.push({
+                        name: adapter.name,
+                        title: String(adapterData?.titleLang?.en ?? adapterData?.title).trim(),
+                        icon: adapterData.extIcon,
+                        url: adapter.html_url,
+                        adapterName: adapterName,
+                        maintainer: maint,
+                        version: {
+                            beta: adapterData.version ?? '??',
+                            stable: adapterData?.stable ?? '??',
+                        },
+                        installations: adapterData?.stat,
+                    });
+                } else {
+                    templateData.adaptersUnlisted.push({
+                        name: adapter.name,
+                        url: adapter.html_url,
+                        adapterName: adapterName,
+                        maintainer: maint,
+                    });
+                }
             }
 
             if (templateData.adapters.length > 0) {

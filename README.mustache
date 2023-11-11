@@ -56,11 +56,21 @@ npm access grant read-write iobroker-community-adapters:developers iobroker.<ada
 
 List of maintainers for every adapter in iobroker-community-adapters
 
-| Adapter | Beta | Stable | Installed | Teststatus | Maintainer |
-|---------|------|--------|-----------|------------|------------|
+### Adapters in beta (and stable) repository
+
+| | Adapter | Beta | Stable | Installed | Teststatus | Maintainer |
+|-|---------|------|--------|-----------|------------|------------|
 {{#adapters}}
-| [{{adapterName}}]({{{url}}}) | v{{version.beta}} | v{{version.stable}} | {{installations}} | ![Test&Release](https://github.com/iobroker-community-adapters/iobroker.{{adapterName}}/workflows/Test%20and%20Release/badge.svg) | {{{maintainer}}} |
+| <img src="{{{icon}}}" alt="{{title}}" width="25" /> || [{{title}}]({{{url}}}) | v{{version.beta}} | v{{version.stable}} | {{installations}} | ![Test&Release](https://github.com/iobroker-community-adapters/iobroker.{{adapterName}}/workflows/Test%20and%20Release/badge.svg) | {{{maintainer}}} |
 {{/adapters}}
+
+### Unlisted adapters
+
+| Adapter | Teststatus | Maintainer |
+|---------|------------|------------|
+{{#adaptersUnlisted}}
+| [{{adapterName}}]({{{url}}}) | ![Test&Release](https://github.com/iobroker-community-adapters/iobroker.{{adapterName}}/workflows/Test%20and%20Release/badge.svg) | {{{maintainer}}} |
+{{/adaptersUnlisted}}
 
 ----
 
