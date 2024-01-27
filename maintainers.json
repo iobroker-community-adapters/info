@@ -16,6 +16,7 @@
     "ioBroker.ical": ["Apollon77", "jens-maus"],
     "ioBroker.iceroad": ["ciddi89"],
     "ioBroker.ico-cloud": ["Garfonso"],
+    "ioBroker.info": "DEPRECATED",
     "ioBroker.js2fs-community": ["Apollon77"],
     "ioBroker.km200": "DEPRECATED",
     "ioBroker.kecontact": ["Sneak-L8"],
