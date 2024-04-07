@@ -14,11 +14,10 @@ Goal is to help each other with the adapter development, so repositories don't g
 
 Activate 2FA for your Github and npmjs account, this is a must have.
 Then Click [HERE](https://github.com/iobroker-community-adapters/info/issues/new?assignees=Jey-Cee&labels=new+member&template=please-add-me-as-member.md&title=Please+add+me+as+a+member) and fill out the template.
-You will receive two invitation emails one for Github and one for npmjs.com.
 
 # Chat
 
-- Prefered Chat on Discord: https://discord.gg/vmVYqPV (german)
+- Chat on Discord: https://discord.gg/vmVYqPV (german)
 - Chat on Telegram : https://t.me/joinchat/EdtEphZDh1lp4bO8BoYqfA (german) synced with discord channel
 - Chat on Telegram: https://t.me/joinchat/FungexBCt2Vv_mjwtAU0pQ (english)
 
