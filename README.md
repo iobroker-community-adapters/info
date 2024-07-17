@@ -35,15 +35,15 @@ Your repositorie(s) has to be already in the stable or minimum in latest reposit
 If you do not want to maintain your adapter yourself in the future feel free to ask for the adapter to be migrated to the iobroker-community-adapters organization by community team. Its not required to become a member only for an adapter to be migrated.
 Please create a issue and mention @mcm1957 in this case, mcm1957 will contact you clearify the required steps. In generell only to steps are required to be done by you:
 
-1. send an github invite for transfer ownership to @mcm1957
-    a. Go to your GitHub repo that you want to move
-    b. Settings -> Danger Zone -> Transfer Ownership
-    c. Click on 'Transfer'
-    d. Type 'mcm1957' as New owner
-2. send a npm invite to add @mcm1957 for your adapter package
-    a. log in at npmjs
-    b. select your adapter
-    c. select settings
+1. send an github invite for transfer ownership to @mcm1957  
+    a. Go to your GitHub repo that you want to move  
+    b. Settings -> Danger Zone -> Transfer Ownership  
+    c. Click on 'Transfer'  
+    d. Type 'mcm1957' as New owner  
+2. send a npm invite to add @mcm1957 for your adapter package  
+    a. log in at npmjs  
+    b. select your adapter  
+    c. select settings  
     d. add "mcm1957" into field "invite maintainer" and press "invite"
 3. That'it
 
