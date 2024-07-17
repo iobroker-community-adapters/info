@@ -220,4 +220,4 @@ List of maintainers for every adapter in iobroker-community-adapters
 
 ----
 
-*Generated at: 2024-07-17T15:56:36.787Z*
+*Generated at: 2024-07-17T16:00:04.263Z*
