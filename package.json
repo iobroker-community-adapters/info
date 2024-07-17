@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/iobroker-community-adapters/info#readme",
   "dependencies": {
-    "axios": "^1.6.7",
+    "axios": "^1.7.2",
     "mustache": "^4.2.0"
   }
 }
