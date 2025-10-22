@@ -38,6 +38,7 @@
     "ioBroker.smartcontrol": ["oelison"],
     "ioBroker.snmp": ["mcm1957"],
     "ioBroker.spotify-premium": ["aruttkamp"],
+    "stiebel-isg": ["jens-maus"],
     "ioBroker.tankerkoenig": ["xXBJXx"],
     "ioBroker.statistics": ["klein0r"],
     "ioBroker.telegram": ["Apollon77", "GermanBluefox", "Garfonso"],
