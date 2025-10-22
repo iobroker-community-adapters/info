@@ -236,4 +236,4 @@ List of maintainers for every adapter in iobroker-community-adapters
 
 ----
 
-*Generated at: 2025-10-22T04:45:57.738Z*
+*Generated at: 2025-10-22T09:32:41.867Z*
