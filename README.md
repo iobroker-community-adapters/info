@@ -233,11 +233,11 @@ List of maintainers for every adapter in iobroker-community-adapters
 
 | Adapter | Teststatus | Maintainer |
 |---------|------------|------------|
-| [anthbot](https://github.com/iobroker-community-adapters/ioBroker.anthbot) | ![Test&Release](https://github.com/iobroker-community-adapters/ioBroker.anthbot/actions/workflows/test-and-release.yml/badge.svg) | [raintonr](https://github.com/raintonr/) |
+| [anthbot](https://github.com/iobroker-community-adapters/ioBroker.anthbot) | ![Test&Release](https://github.com/iobroker-community-adapters/ioBroker.anthbot/actions/workflows/test-and-release.yml/badge.svg) | [](https://github.com//) |
 | [demo-adapter-with-webcomponent](https://github.com/iobroker-community-adapters/ioBroker.demo-adapter-with-webcomponent) | ![Test&Release](https://github.com/iobroker-community-adapters/ioBroker.demo-adapter-with-webcomponent/actions/workflows/test-and-release.yml/badge.svg) | [jogibear9988](https://github.com/jogibear9988/) |
 | [rika-firenet](https://github.com/iobroker-community-adapters/ioBroker.rika-firenet) | ![Test&Release](https://github.com/iobroker-community-adapters/ioBroker.rika-firenet/actions/workflows/test-and-release.yml/badge.svg) | - |
 | [todoist](https://github.com/iobroker-community-adapters/ioBroker.todoist) | ![Test&Release](https://github.com/iobroker-community-adapters/ioBroker.todoist/actions/workflows/test-and-release.yml/badge.svg) | - |
 
 ----
 
-*Generated at: 2026-07-04T07:15:59.958Z*
+*Generated at: 2026-07-04T07:17:23.944Z*
