@@ -28,6 +28,7 @@
     "ioBroker.myenergi": ["TA2k"],
     "ioBroker.myvbus": ["pdbjjens"],
     "ioBroker.onvif": ["TA2k"],
+    "ioBroker.philips-air": ["tt-tom17"],
     "ioBroker.plex": ["ticaki"],
     "ioBroker.pvforecast": ["klein0r"],
     "ioBroker.ring": ["theimo1221"],
