@@ -5,6 +5,7 @@
     "ioBroker.doorbird": ["Schmakus"],
     "ioBroker.email": ["Apollon77"],
     "ioBroker.envertech-pv": ["mcm1957"],
+    "ioBroker.fakeroku": ["krobipd"],
     "ioBroker.fhem": ["Apollon77"],
     "ioBroker.fitbit-api": ["Garfonso"],
     "ioBroker.frontier_silicon": ["pdbjjens"],
