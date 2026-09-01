@@ -232,13 +232,13 @@ List of maintainers for every adapter in iobroker-community-adapters
 
 | Adapter | Teststatus | Maintainer |
 |---------|------------|------------|
-| [anthbot](https://github.com/iobroker-community-adapters/ioBroker.anthbot) | ![Test&Release](https://github.com/iobroker-community-adapters/ioBroker.anthbot/actions/workflows/test-and-release.yml/badge.svg) | [](https://github.com//) |
+| [anthbot](https://github.com/iobroker-community-adapters/ioBroker.anthbot) | ![Test&Release](https://github.com/iobroker-community-adapters/ioBroker.anthbot/actions/workflows/test-and-release.yml/badge.svg) | [raintonr](https://github.com/raintonr/) |
 | [demo-adapter-with-webcomponent](https://github.com/iobroker-community-adapters/ioBroker.demo-adapter-with-webcomponent) | ![Test&Release](https://github.com/iobroker-community-adapters/ioBroker.demo-adapter-with-webcomponent/actions/workflows/test-and-release.yml/badge.svg) | [jogibear9988](https://github.com/jogibear9988/) |
 | [rika-firenet](https://github.com/iobroker-community-adapters/ioBroker.rika-firenet) | ![Test&Release](https://github.com/iobroker-community-adapters/ioBroker.rika-firenet/actions/workflows/test-and-release.yml/badge.svg) | - |
-| [stockmarket](https://github.com/iobroker-community-adapters/ioBroker.stockmarket) | ![Test&Release](https://github.com/iobroker-community-adapters/ioBroker.stockmarket/actions/workflows/test-and-release.yml/badge.svg) | - |
+| [stockmarket](https://github.com/iobroker-community-adapters/ioBroker.stockmarket) | ![Test&Release](https://github.com/iobroker-community-adapters/ioBroker.stockmarket/actions/workflows/test-and-release.yml/badge.svg) | [DEPRECATED](https://github.com/DEPRECATED/) |
 | [sunseeker](https://github.com/iobroker-community-adapters/ioBroker.sunseeker) | ![Test&Release](https://github.com/iobroker-community-adapters/ioBroker.sunseeker/actions/workflows/test-and-release.yml/badge.svg) | - |
 | [todoist](https://github.com/iobroker-community-adapters/ioBroker.todoist) | ![Test&Release](https://github.com/iobroker-community-adapters/ioBroker.todoist/actions/workflows/test-and-release.yml/badge.svg) | - |
 
 ----
 
-*Generated at: 2026-09-01T08:18:27.322Z*
+*Generated at: 2026-09-01T08:24:43.831Z*
