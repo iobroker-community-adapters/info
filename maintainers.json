@@ -35,7 +35,7 @@
     "ioBroker.pvforecast": ["klein0r"],
     "ioBroker.ring": ["theimo1221"],
     "ioBroker.rpi2": ["Garfonso"],
-    "ioBroker.shelly": ["mcm1957, klein0r"],
+    "ioBroker.shelly": ["mcm1957", "klein0r"],
     "ioBroker.sma-em": ["pdbjjens"],
     "ioBroker.smartcontrol": ["oelison"],
     "ioBroker.snmp": ["mcm1957"],
