@@ -80,8 +80,8 @@ List of maintainers for every adapter in iobroker-community-adapters
 
 ### Adapters in beta (and stable) repository
 
-| | Adapter | Beta | Stbl | Inst | T | Iss | PRs | Maintainer |
-|-|---------|-----:|-----:|-----:|:-:|----:|----:|------------|
+| | Adapter | Beta | Stbl | Inst | Test | Iss | PRs | Maintainer |
+|-|---------|-----:|-----:|-----:|:----:|----:|----:|------------|
 |<img src="https://raw.githubusercontent.com/iobroker-community-adapters/ioBroker.accuweather/master/admin/accuweather.png" alt="AccuWeather" width="16"/>| [accuweather](https://github.com/iobroker-community-adapters/ioBroker.accuweather) | 2.3.0 | 2.3.0 |  | [⚪](https://github.com/iobroker-community-adapters/ioBroker.accuweather/actions/workflows/test-and-release.yml) | 5 | 6 | - |
 |<img src="https://raw.githubusercontent.com/iobroker-community-adapters/ioBroker.acme/main/admin/acme.png" alt="ACME" width="16"/>| [acme](https://github.com/iobroker-community-adapters/ioBroker.acme) | 5.0.2 | 5.0.2 |  | [⚪](https://github.com/iobroker-community-adapters/ioBroker.acme/actions/workflows/test-and-release.yml) | 12 | 4 | - |
 |<img src="https://raw.githubusercontent.com/iobroker-community-adapters/ioBroker.adguard/master/admin/adguard.png" alt="AdGuard" width="16"/>| [adguard](https://github.com/iobroker-community-adapters/ioBroker.adguard) | 1.2.0 | 1.2.0 |  | [✅](https://github.com/iobroker-community-adapters/ioBroker.adguard/actions/workflows/test-and-release.yml) | 5 | 0 | - |
@@ -241,4 +241,4 @@ List of maintainers for every adapter in iobroker-community-adapters
 
 ----
 
-*Generated at: 2026-09-24T21:51:58.927Z*
+*Generated at: 2026-09-24T21:55:46.074Z*
