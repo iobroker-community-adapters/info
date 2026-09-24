@@ -27,6 +27,8 @@ jobs:
         run: npm install --omit=dev
       - name: Generate README file
         run: node index.js --update-readme
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Push new README.md
         uses: mikeal/publish-to-github-action@master
         env:

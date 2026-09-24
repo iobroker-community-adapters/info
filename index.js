@@ -10,9 +10,14 @@ const maintainers = JSON.parse(fs.readFileSync('maintainers.json'));
 if (process.argv.indexOf('--update-readme') > -1) {
     console.log('Updating README.md');
 
+    const githubToken = process.env.GITHUB_TOKEN;
+
     Promise.all([utils.collectCommunityRepos(), utils.getBetaRepository()])
-        .then(values => {
+        .then(async values => {
             const [adapterList, betaRepo] = values;
+
+            console.log('Fetching issue/PR stats from GitHub...');
+            const repoStats = await utils.getRepoStats(adapterList, githubToken);
 
             const templateData = {
                 generatedAt: new Date().toISOString(),
@@ -33,8 +38,14 @@ if (process.argv.indexOf('--update-readme') > -1) {
                     maint = maintainers[adapter.name].map(m => `[${m}](https://github.com/${m}/)`).join(', ');
                 }
 
+                const stats = repoStats[adapter.name] ?? { issues: 0, prs: 0, dependabotPRs: 0 };
+                const nonBotPRs = stats.prs - stats.dependabotPRs;
+                const prDisplay = nonBotPRs > 0 ? `${stats.prs} (${nonBotPRs})` : String(stats.prs);
+
                 if (betaRepo?.[adapterName]) {
                     const adapterData = betaRepo[adapterName];
+                    // installations: prefer 'stat' field; fall back to other known field names
+                    const installs = adapterData?.stat ?? adapterData?.installs ?? adapterData?.downloads ?? '';
 
                     templateData.adapters.push({
                         name: adapter.name,
@@ -48,7 +59,9 @@ if (process.argv.indexOf('--update-readme') > -1) {
                             betaAge: Math.ceil(Math.abs(Date.now() - new Date(adapterData.versionDate).getTime()) / (1000 * 60 * 60 * 24)),
                             stable: adapterData?.stable ?? '??',
                         },
-                        installations: adapterData?.stat,
+                        installations: installs,
+                        openIssues: stats.issues,
+                        openPRs: prDisplay,
                     });
                 } else {
                     templateData.adaptersUnlisted.push({
@@ -56,6 +69,8 @@ if (process.argv.indexOf('--update-readme') > -1) {
                         url: adapter.html_url,
                         adapterName: adapterName,
                         maintainer: maint,
+                        openIssues: stats.issues,
+                        openPRs: prDisplay,
                     });
                 }
             }
