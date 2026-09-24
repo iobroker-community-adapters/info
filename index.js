@@ -38,9 +38,13 @@ if (process.argv.indexOf('--update-readme') > -1) {
                     maint = maintainers[adapter.name].map(m => `[${m}](https://github.com/${m}/)`).join(', ');
                 }
 
-                const stats = repoStats[adapter.name] ?? { issues: 0, prs: 0, dependabotPRs: 0 };
+                const stats = repoStats[adapter.name] ?? { issues: 0, prs: 0, dependabotPRs: 0, testConclusion: null };
                 const nonBotPRs = stats.prs - stats.dependabotPRs;
                 const prDisplay = nonBotPRs > 0 ? `${stats.prs} (${nonBotPRs})` : String(stats.prs);
+                const testStatus = stats.testConclusion === 'SUCCESS' ? '✅'
+                    : stats.testConclusion === 'FAILURE' ? '❌'
+                    : stats.testConclusion === 'TIMED_OUT' ? '⏱️'
+                    : '⚪';
 
                 if (betaRepo?.[adapterName]) {
                     const adapterData = betaRepo[adapterName];
@@ -62,6 +66,7 @@ if (process.argv.indexOf('--update-readme') > -1) {
                         installations: installs,
                         openIssues: stats.issues,
                         openPRs: prDisplay,
+                        testStatus: testStatus,
                     });
                 } else {
                     templateData.adaptersUnlisted.push({
@@ -71,6 +76,7 @@ if (process.argv.indexOf('--update-readme') > -1) {
                         maintainer: maint,
                         openIssues: stats.issues,
                         openPRs: prDisplay,
+                        testStatus: testStatus,
                     });
                 }
             }
