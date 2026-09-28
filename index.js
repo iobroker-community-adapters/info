@@ -41,9 +41,9 @@ if (process.argv.indexOf('--update-readme') > -1) {
                 const stats = repoStats[adapter.name] ?? { issues: 0, prs: 0, dependabotPRs: 0, testConclusion: null };
                 const nonBotPRs = stats.prs - stats.dependabotPRs;
                 const prDisplay = nonBotPRs > 0 ? `${stats.prs} (${nonBotPRs})` : String(stats.prs);
-                const testStatus = stats.testConclusion === 'SUCCESS' ? '✅'
-                    : stats.testConclusion === 'FAILURE' ? '❌'
-                    : stats.testConclusion === 'TIMED_OUT' ? '⏱️'
+                const testStatus = stats.testConclusion === 'success' ? '✅'
+                    : stats.testConclusion === 'failure' ? '❌'
+                    : stats.testConclusion === 'timed_out' ? '⏱️'
                     : '⚪';
 
                 if (betaRepo?.[adapterName]) {
