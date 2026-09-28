@@ -12,9 +12,9 @@ if (process.argv.indexOf('--update-readme') > -1) {
 
     const githubToken = process.env.GITHUB_TOKEN;
 
-    Promise.all([utils.collectCommunityRepos(), utils.getBetaRepository()])
+    Promise.all([utils.collectCommunityRepos(), utils.getBetaRepository(), utils.getInstallStats()])
         .then(async values => {
-            const [adapterList, betaRepo] = values;
+            const [adapterList, betaRepo, installStats] = values;
 
             console.log('Fetching issue/PR stats from GitHub...');
             const repoStats = await utils.getRepoStats(adapterList, githubToken);
@@ -48,8 +48,7 @@ if (process.argv.indexOf('--update-readme') > -1) {
 
                 if (betaRepo?.[adapterName]) {
                     const adapterData = betaRepo[adapterName];
-                    // installations: prefer 'stat' field; fall back to other known field names
-                    const installs = adapterData?.stat ?? adapterData?.installs ?? adapterData?.downloads ?? '';
+                    const installs = installStats[adapterName] ?? '';
 
                     templateData.adapters.push({
                         name: adapter.name,
