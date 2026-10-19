@@ -28,6 +28,7 @@
     "ioBroker.mqtt-client": ["klein0r"],
     "ioBroker.mydlink": ["Garfonso"],
     "ioBroker.myenergi": ["TA2k"],
+    "ioBroker.mihome-vacuum": ["xXBJXx"],
     "ioBroker.myvbus": ["pdbjjens"],
     "ioBroker.onvif": ["TA2k"],
     "ioBroker.philips-air": ["tt-tom17"],
