@@ -38,7 +38,7 @@
     "ioBroker.shelly": ["mcm1957", "klein0r"],
     "ioBroker.sma-em": ["pdbjjens"],
     "ioBroker.smartcontrol": ["oelison"],
-    "ioBroker.snmp": ["mcm1957"],
+    "ioBroker.snmp": ["GermanBluefox"],
     "ioBroker.spotify-premium": ["aruttkamp"],
     "ioBroker.statistics": ["klein0r"],
     "ioBroker.stiebel-isg": ["pdbjjens"],
