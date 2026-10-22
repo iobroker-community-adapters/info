@@ -49,8 +49,9 @@
     "ioBroker.tesla-motors": ["ChrMaass"],
     "iobroker.todoist": ["DEPRECATED"],
     "ioBroker.tr-064": ["Apollon77", "GermanBluefox"],
-    "ioBroker.weatherunderground": ["mcm1957"],
+    "ioBroker.weatherunderground": ["mcm1957", "relox13"],
     "ioBroker.webui": ["jogibear9988"],
+    "ioBroker.wifilight": ["relox13"],
     "ioBroker.worx": ["Lucky-ESA"],
     "ioBroker.yamaha": ["krobipd"],
     "ioBroker.yeelight-2": "!"
