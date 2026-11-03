@@ -3,7 +3,7 @@
     "ioBroker.anthbot": ["raintonr"],
     "ioBroker.cec2": ["Garfonso"],
     "ioBroker.demo-adapter-with-webcomponent": ["jogibear9988"],
-    "ioBroker.device-watcher": ["Arteck"],
+    "ioBroker.device-watcher": ["arteck"],
     "ioBroker.doorbird": ["Schmakus"],
     "ioBroker.elgato-keylight": ["xXBJXx"],
     "ioBroker.email": ["Apollon77", "GermanBluefox"],
