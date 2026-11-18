@@ -14,9 +14,9 @@ Goal is to help each other with the adapter development, so repositories don't g
 
 If you want to work together with others at adapters owned by the community feel free to apply for registration and follow those steps:
 
-1. Activate 2FA for your Github and npmjs account, this is a must have.
-2. Then Click [HERE](https://github.com/iobroker-community-adapters/info/issues/new?assignees=Jey-Cee&labels=new+member&template=please-add-me-as-member.md&title=Please+add+me+as+a+member) and fill out the template.
-You will receive two invitation emails one for Github and one for npmjs.com.
+1. Start by supplying some PRs to fix open issues or improve an existing adapter. Contacting the primary maintainer of an adapter (see list) is recommanded to coordinate work.
+2. If are PRs are accepted and you want to maintain a specific adapter as primary maintainer, please let us know (meintion @mcm1957 withi a issue or contact @mcm1957 at telegramm)
+3. You will receive an invitation email for Github.
 
 # Chat
 
